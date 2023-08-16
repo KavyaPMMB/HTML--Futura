@@ -1,0 +1,29 @@
+h1
+{
+    background-color: coral;
+    border: 5px solid red;
+    border-top-left-radius: 15px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-weight: 900;
+    
+}
+p
+{
+
+    background-color: aquamarine;
+}
+body{
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKFLcTftUDbZUFvuep0wL84Zm1gn11vFG-tf2nwnIwZg&s");
+    background-repeat: no-repeat;
+    background-size: contain; */
+}
+.div1
+{
+    padding: 50px;
+}
+.div2
+{
+    padding: 50px;
+}

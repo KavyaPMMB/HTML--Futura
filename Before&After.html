@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>::before and ::after Example</title>
+  <style>
+    .my-element::before 
+    {
+      content: "This is Before";
+      color: blue;
+    }
+    
+    .my-element::after {
+      content: " This is After";
+      color: red;
+    }
+    .my-element::first-line {
+      font-weight: bold;
+      text-transform: uppercase;
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <div class="my-element">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam nostrum ducimus doloribus rem deleniti accusamus dolor. Nesciunt, error inventore voluptas quaerat excepturi beatae expedita non neque, aperiam ad placeat mollitia.</div>
+</body>
+</html>

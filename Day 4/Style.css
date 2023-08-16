@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  
+  .element {
+    width: 200px;
+    height: 200px;
+    transition-property: width, transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transform-origin: center center;
+  }
+  
+  .element:hover {
+    width: 400px;
+    transform: rotatex(150deg);
+  }
+  .sample
+  {
+    width: 500px;
+    height: 20px;
+    background-color: brown;
+    transition: width 2s;
+  }
+  .sample:hover{
+    width:900px;
+  }
+  

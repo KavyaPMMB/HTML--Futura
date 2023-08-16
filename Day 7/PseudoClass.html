@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pseudo-class Examples</title>
+  <style>
+    /* Internal CSS */
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    h1:hover
+    {
+      color: blue;
+    }
+    button:hover
+    {
+      background-color: aqua;
+    }
+
+    /* Style for the anchor tag when not hovered */
+    a {
+      color: blue;
+      text-decoration: none;
+    }
+
+    /* Style for the anchor tag when hovered */
+    a:hover {
+      color: red;
+      text-decoration: none;
+    }
+
+    /* Style for the anchor tag when visited */
+    a:visited {
+      color: purple;
+    }
+
+    /* Style for the input element when focused */
+    input:focus {
+      border: 2px solid green;
+      outline: none;
+    }
+
+    /* Style for the element when being activated (clicked) */
+    button:active
+     {
+      background-color: yellow;
+      color:red;
+    }
+  </style>
+</head>
+<body>
+  <h1>Various Pseudo-class Examples</h1>
+  
+  <p>Hover over the link to see the hover effect:</p>
+  <a href="Sample45.html">This is a link</a>
+  
+  <br><br>
+  
+  <p>Click the button and observe the active effect:</p>
+  <button>Click Me</button>
+  
+  <br><br>
+  
+  <p>Focus on the input field to see the focus effect:</p>
+  <input type="text" placeholder="Type something...">
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form2.css">
+</head>
+<body>
+    <form action="welcome.html" style="border: 4px solid black;">
+       <label for="name">Name :</label> 
+       <input type="text" id="name"  placeholder="enter your name" required><br><br>
+       
+
+       <label for="age">Age</label>
+       <input type="number" id="age" placeholder="age"><br><br>
+ 
+       <label for="email">Email</label>
+       <input type="email" id="email" pattern="[a-z0-9._+-%]+@[a-z0-9.-]" required><br><br>
+       <!-- <input type="number" pattern="[0-9]"> -->
+
+       <label for="password">Password</label>
+       <input type="password"id="pwd"><br><br>
+       <label for="">DOB</label>
+       <input type="date">
+
+       <label for="file">File</label>
+       <input type="file" id="file"><br><br>
+
+        <label for="gender">Gender</label>
+        <input type="radio" id="m" name="gender">
+        <label for="male">male</label>
+        <input type="radio" id="f" name="gender" >
+        <label for="female">Female</label><br><br>
+
+
+        <label for="sub">Subjects</label>
+        <input type="checkbox"  id="html">
+        <label for="html">Html</label>
+        <input type="checkbox"  id="react">
+        <label for="react">React</label>
+        <input type="checkbox" id="python">
+        <label for="python">Python</label><br><br>
+
+
+        <select name="" id="course">
+            <option value="php">PHP</option>
+            <option value="mern">MERN</option>
+            <option value="dig">Digital marketing</option>
+        </select><br><br>
+
+            <label for="address">Address</label>
+            <textarea name="address" id="adr" cols="20" rows="20" ></textarea><br><br>
+
+
+            <!-- <input type="submit" value="Register"> -->
+            <!-- <input type="reset" value="reset"> -->
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        
+            
+
+
+
+
+    </form>
+</body>
+</html>

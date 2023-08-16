@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function validateForm() {
+            var checkboxes = document.getElementsByName("subject");
+            var isChecked = false;
+
+            for (var i = 0; i < checkboxes.length; i++) {
+                if (checkboxes[i].checked) {
+                    isChecked = true;
+                    break;
+                }
+            }
+
+            if (!isChecked) {
+                alert("Please select at least one subject.");
+                return false;
+            }
+        }
+    </script>
+    <form action="/welcome.html">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="fname" placeholder="enter your name" required ><br><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" pattern="[a-z0-9._+-%]+@[a-z0-9.-]"><br><br>
+        <label for="age">Age</label>
+        <input type="number" id="age"><br><br>
+
+        <label for="gender">Gender</label>
+        <input type="radio" id="m" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" id="f" name="gender">
+        <label for="female">Female</label><br><br>
+<label for="select">select course</label>
+        <select name="course" id="" required>
+
+            <option value="php">PHP</option>
+            <option value="mern">MERN</option>
+            <option value="react">React</option>
+
+        </select><br><br>
+
+
+        <label for="sub">Subjects</label>
+        <input type="checkbox" id="html">
+        <label for="html">HTML</label>
+        <input type="checkbox" id="react">
+        <label for="react">REACT</label>
+        <input type="checkbox" id="python">
+        <label for="python">Python</label><br><br>
+
+        <label for="address">Address</label><br>
+        <textarea name="" id="" cols="60" rows="20" required></textarea><br>
+
+
+        <input type="submit" value="register">
+
+
+
+
+
+    </form>
+</body>
+</html>

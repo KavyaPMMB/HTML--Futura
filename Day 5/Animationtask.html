@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes abc  {
+0% {
+    background-color: rgb(186, 186, 206);
+  
+    transform: rotate(-20deg) scale(2,2) translate(100px);
+  }
+   50% {
+    background-color: rgb(143, 184, 22);
+  
+    transform: rotate(20deg);
+  }
+  75%
+  {
+    background-color: blueviolet;
+    transform: rotate(-20deg) translate(200px,200px);
+  } 
+
+100%
+{
+    
+    transform: rotate(-20deg) scale(2,2) translate(100px);
+
+  }
+}
+body
+{
+  background-color: rgb(73, 73, 140);
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(83, 162, 199);
+  animation-name: abc;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.box:hover
+{
+  animation-play-state: paused;
+}
+
+    </style>
+</head>
+<body>
+    <div class="box">HIIII</div>
+</body>
+</html>

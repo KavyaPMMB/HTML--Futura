@@ -1,0 +1,51 @@
+/* body {
+    background-color: rgb(238, 144, 199);
+  }
+  h1{
+    color: blue;
+  }
+  p
+  {
+    color: brown;
+  } */
+  
+  /* @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  } */
+
+ /* h1 {
+    color: #d10707;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}  */
+
+ /* #header1
+{
+    color: red;
+}
+#header2
+{
+    color: blue;
+}
+.para1
+{
+    color: chartreuse;
+}  */
+/* *
+{
+  color: blue;
+} */
+/* *
+{
+  color:aqua;
+} */
+
+h1,p{
+  color: blue;
+}
